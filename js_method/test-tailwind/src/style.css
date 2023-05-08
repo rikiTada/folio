@@ -1,0 +1,22 @@
+::selection {
+  background-color: #00cba9;
+  color: #fff;
+}
+.scroll-table {
+  max-height: 300px;
+  overflow-y: auto;
+  display: block;
+}
+.scroll-table::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-table::-webkit-scrollbar-thumb {
+  background-color: rgba(75, 85, 99, 0.5);
+  border-radius: 4px;
+}
+
+.scroll-table::-webkit-scrollbar-track {
+  background-color: rgba(229, 231, 235, 0.5);
+  border-radius: 4px;
+}
