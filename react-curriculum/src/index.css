@@ -6,12 +6,3 @@
   background-color: #fff;
   color: #18ba9a;
 }
-
-@font-face {
-  font-family: 'KiteOne';
-  src: url('KiteOne-Regular.ttf') format('truetype');
-}
-
-body {
-  font-family: 'KiteOne', sans-serif;
-}
